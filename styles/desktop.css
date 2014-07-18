@@ -1,3 +1,7 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 #background{
 	position: fixed;
 	right: 0;
@@ -7,4 +11,25 @@
 	width: auto;
 	z-index: -100;
 	height: auto;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	transition: color .8s;
+}
+
+nav ul li:hover{
+	color: orange;
+	text-shadow: 2px 2px 4px #000;
+	cursor: pointer;
 }
