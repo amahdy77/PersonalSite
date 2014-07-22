@@ -158,9 +158,8 @@ nav li span{
 
 }
 
-/*#imageContent li:hover{
-	opacity: .3;
+#map iframe{
+	margin-top: 20%;
+	margin-left: 10%;
 }
-*/
-
 
