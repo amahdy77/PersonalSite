@@ -5,10 +5,10 @@ html{
 }
 
 nav{
-	margin-top: 35%;
+	margin-top: 48%;
 	margin-left: 2%;
 	background-color: rgba(19, 19, 19, 0.5);
-	width: 29%;
+	width: 96%;
 	float: left;
 }
 
@@ -17,7 +17,7 @@ nav ul{
 }
 
 nav ul li{
-	display: block;
+	display: inline;
 	width: 90%;
 }
 
@@ -27,41 +27,23 @@ nav li a{
 	font-weight: bold;
 	padding-right: 30px;
 	padding-left: 30px;
-	transition: background-color 5s;
+	transition: background-color .8s;
 	text-decoration: none;
+	opacity: .3;
 }
 
 nav ul li:hover{
 	background-color: rgba(109, 151, 0, 0.5);
-	text-shadow: 2px 2px 4px black;
+	text-shadow: 2px 2px 4px gray;
 	cursor: pointer;
+}
+
+nav ul li a:hover{
+	opacity: 1;
 }
 
 nav li span{
 	font-size: 26px;
-}
-
-#restWidth{
-	float: right;
-	margin-top: 35%;
-	margin-right: 2%;
-	background-color: rgba(109, 151, 0, 0.5);
-	width: 66%;
-	height: 212px;
-	z-index: 1;
-}
-
-#restWidth div{
-	margin-top: 4%;
-}
-
-#restWidth div p{
-	padding-top: 1%;
-	padding-left: 2%;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-style: italic;
-	font-size: 14px;
 }
 
 #socialMedia ul{
