@@ -5,10 +5,10 @@ html{
 }
 
 nav{
-	margin-top: 48%;
+	margin-top: 35%;
 	margin-left: 2%;
 	background-color: rgba(19, 19, 19, 0.5);
-	width: 96%;
+	width: 29%;
 	float: left;
 }
 
@@ -17,7 +17,7 @@ nav ul{
 }
 
 nav ul li{
-	display: inline;
+	display: block;
 	width: 90%;
 }
 
@@ -27,19 +27,14 @@ nav li a{
 	font-weight: bold;
 	padding-right: 30px;
 	padding-left: 30px;
-	transition: background-color .8s;
+	transition: background-color 5s;
 	text-decoration: none;
-	opacity: .3;
 }
 
 nav ul li:hover{
 	background-color: rgba(109, 151, 0, 0.5);
-	text-shadow: 2px 2px 4px gray;
+	text-shadow: 2px 2px 4px black;
 	cursor: pointer;
-}
-
-nav ul li a:hover{
-	opacity: 1;
 }
 
 nav li span{
@@ -74,5 +69,41 @@ nav li span{
 	font-size: 40px;
 	color: orange;
 	font-weight: italic;
+}
+
+#about{
+	width: 50%;
+	height: 462px;
+	background-color: rgba(109, 151, 0, 0.5);
+	margin-top: 15%;
+	margin-right: 10%;
+	float: right;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+#about h1,p{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#portfolio{
+	width: 50%;
+	height: 462px;
+	background-color: rgba(109, 151, 0, 0.5);
+	margin-top: 15%;
+	margin-right: 10%;
+	float: right;
+	color: #FFFFFF;
+	z-index: 2;
+}
+
+#portfolio h1 i, #portfolio h1{
+	font-size: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 65px;
+	text-align: center;
 }
 
