@@ -27,13 +27,14 @@ nav li a{
 	font-weight: bold;
 	padding-right: 30px;
 	padding-left: 30px;
-	transition: background-color 5s;
+	transition: background-color,padding-left 5s;
 	text-decoration: none;
 }
 
 nav ul li:hover{
 	background-color: rgba(109, 151, 0, 0.5);
 	text-shadow: 2px 2px 4px black;
+	padding-left: 60px;
 	cursor: pointer;
 }
 
@@ -106,4 +107,60 @@ nav li span{
 	padding-top: 65px;
 	text-align: center;
 }
+
+#headerSong{
+	float: right;
+	color: #FFFFFF;
+	margin-right: 53%;
+	margin-top: 5%;
+}
+
+#songContent ul{
+	margin-left: 35%;
+}
+
+#songContent li{
+	display: inline;
+}
+
+#songContent img{
+	width: 40%;
+	-webkit-filter: blur(2px);
+}
+
+#songContent img:hover{
+	-webkit-filter: blur(0px);
+}
+
+#headerImage{
+	float: right;
+	color: #FFFFFF;
+	margin-right: 52%;
+	margin-top: 5%;
+}
+
+#imageContent ul{
+	margin-left: 35%;
+}
+
+#imageContent li{
+	display: inline;
+}
+
+#imageContent img{
+	width: 45%;
+	-webkit-filter: blur(2px);
+
+}
+
+#imageContent img:hover{
+	-webkit-filter: blur(0px);
+
+}
+
+/*#imageContent li:hover{
+	opacity: .3;
+}
+*/
+
 
